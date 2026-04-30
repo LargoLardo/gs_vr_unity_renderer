@@ -585,12 +585,12 @@ GameObject:
   - component: {fileID: 975884740}
   - component: {fileID: 975884739}
   m_Layer: 0
-  m_Name: Gaussian Splat
+  m_Name: andy_asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &975884739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,7 +895,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   splat: {fileID: 975884740}
+  splatObject: {fileID: 0}
+  splatRenderer: {fileID: 0}
+  splatPrefab: {fileID: 0}
   viewerCamera: {fileID: 135526998}
+  autoFindSplat: 1
+  autoFindCamera: 1
+  instantiatePrefabIfNeeded: 1
   distanceFromCamera: 3
   heightOffset: 0
   splatScale: {x: 0.1, y: 0.1, z: 0.1}
